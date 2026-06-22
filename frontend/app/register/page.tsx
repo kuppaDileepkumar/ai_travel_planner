@@ -5,7 +5,7 @@ import axios from "axios";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 
-const BASE_URL = "http://localhost:5000/api";
+const BASE_URL = "https://ai-travel-planner-rr8d.onrender.com/api";
 
 export default function RegisterPage() {
   const router = useRouter();
