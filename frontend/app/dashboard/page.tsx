@@ -7,7 +7,7 @@ import CreateTripForm from "../components/CreateTripForm";
 import ItineraryCard from "../components/ItineraryCard";
 import PackingList from "../components/PackingList";
 
-const BASE_URL = "http://localhost:5000/api/trips";
+const BASE_URL = "https://ai-travel-planner-rr8d.onrender.com/api/trips";
 
 interface Activity {
   _id?: string;
